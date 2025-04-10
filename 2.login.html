@@ -1,13 +1,13 @@
-<html>
+<html> <HTML 文件開始>
     <head>
-        <meta charset="utf-8" />
-        <title>登入範例</title>
+        <meta charset="utf-8" /> <設定網頁的編碼為 UTF-8，確保中文字不會亂碼>
+        <title>登入範例</title> <設定網頁標題，會顯示在瀏覽器的分頁上>
     </head>
     <body>
-        <form method=post action="2.login.php">
-            帳號：<input type=text name="id"><br />
-            密碼：<input type=password name="pwd"><p></p>
-            <input type=submit value="登入"> <input type=reset value="清除">
+        <form method=post action="2.login.php"> <表單開始，method=post 表示用 POST 方法送出資料> <action="2.login.php" 表示資料會傳送到 2.login.php 做後端處理>
+            帳號：<input type=text name="id"><br />  <使用者帳號輸入欄位>
+            密碼：<input type=password name="pwd"><p></p>  <使用者密碼輸入欄位，輸入時會以星號或圓點遮蔽>
+            <input type=submit value="登入"> <input type=reset value="清除"> <提交按鈕，按下後表單資料會送出> <清除按鈕，按下會清空所有輸入欄位>
             
         </form>
     </body>
