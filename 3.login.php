@@ -1,6 +1,6 @@
 <?php 
-    if (($_POST["id"] == "john") && ($_POST["pwd"]=="john1234"))
-        echo "登入成功";
+    if (($_POST["id"] == "jamie") && ($_POST["pwd"]=="jamie1234")) //檢查使用者輸入的帳號是否為 "jamie"，且密碼是否為 "jamie1234"
+        echo "登入成功"; //如果帳號和密碼都正確，顯示登入成功
     else
-        echo "登入失敗";
+        echo "登入失敗"; //如果帳號或密碼其中一個錯誤，顯示登入失敗
 ?>
